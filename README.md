@@ -4,8 +4,8 @@
 A comparative study of classical spectral filtering methods (based on the HNO book) and modern deep learning-based approaches (using the `DeepInverse` library) for image deblurring.
 
 ## Methods compared
-- **Classical**: Tikhonov, TSVD, Generalized Tikhonov with DCT/FFT).
-- **Modern methods** via `DeepInverse`: TV + ADMM, Wavelet + ADMM, Plug-and-Play methods with Deep Learning (DPIR, DiffPIR)
+- **Classical**: Tikhonov, TSVD, Generalized Tikhonov with DCT/FFT.
+- **Modern methods** via `DeepInverse`: TV + ADMM, Wavelet + ADMM, Plug-and-Play (PnP) methods with Deep Learning (DPIR, DiffPIR)
 - **Metrics**: PSNR, SSIM, LPIPS, NIQE, Relative Error, and Inference Time evaluated on a set of 12 grayscale images from [DPIR](https://github.com/cszn/DPIR/tree/master/testsets/set12).
 
 ## Installation
